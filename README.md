@@ -1,0 +1,1 @@
+## Sample Cmake project with vcpkg in manifest mode, CmakePresets
