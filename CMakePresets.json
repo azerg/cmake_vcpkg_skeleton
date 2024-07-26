@@ -12,7 +12,8 @@
       "displayName": "base Configuration",
       "generator": "Visual Studio 17 2022",
 	  "binaryDir": "${sourceDir}/build",
-	  "cacheVariables": {
+	  "installDir": "${sourceDir}/install",
+	  "environment": {
 		"VCPKG_OVERLAY_TRIPLETS": "${sourceDir}/vcpkg/triplets",
 		"CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
 	  }
